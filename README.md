@@ -13,3 +13,9 @@
 ## 软技能 代码之外的生存指南
 
 视频版地址：https://www.bilibili.com/video/BV1aM4y197aY/?vd_source=391a8dc379e0da60c77490e3221f097a
+
+
+
+## 花一个小时，让你高薪入职心仪的公司
+
+视频版地址：https://www.bilibili.com/video/BV1kM411e7zi/?vd_source=391a8dc379e0da60c77490e3221f097a
