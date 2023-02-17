@@ -1,0 +1,18 @@
+<script>
+
+  class Color {
+    constructor() {
+      console.log(`new.target.name: ${new.target.name}`);
+    }
+  }
+
+  class SubColor extends Color {
+    constructor() {
+      super()
+    }
+  }
+
+  new Color() // new.target: 指向 Color
+
+  new SubColor() // new.target: 指向 SubColor
+</script>

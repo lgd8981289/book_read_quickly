@@ -1,0 +1,61 @@
+<script>
+
+  const fnName = 'fn' + Math.floor(Math.random() * 1000)
+  class Color {
+    // 一个《构造函数》
+    constructor(r = 0, g = 0, b = 0) {
+      // 三个《数据属性》
+      this.r = r
+      this.g = g
+      this.b = b
+      console.log(`new.target.name: ${new.target.name}`);
+    }
+
+    // 一个《访问器属性》
+    get rgb() {
+      // 可通过 实例.rgb 访问
+      return `rgb(${this.r}, ${this.g}, ${this.b})`
+    }
+
+    set rgb(val) {
+      // 为 r、g、b 赋值
+      // 可通过 实例.rgb = xx 访问
+    }
+
+    // 一个《原型方法》
+    toString() {
+      return `重写的原型方法：${this.rgb}`
+    }
+
+    // 一个静态方法
+    static fromCss(r, g, b) {
+      return new this(r, g, b)
+    }
+
+    // 动态方法名
+    [fnName]() {
+      return `动态方法名为：${fnName}`
+    }
+  }
+
+  class SubColor extends Color {
+    constructor(r = 0, g = 0, b = 0, a = 1) {
+      super(r, g, b)
+      this.a = a
+    }
+
+    static fromCss(r, g, b, a = 1) {
+      // 通过 super 调用父类的静态方法
+      const result = super.fromCss(r, g, b)
+      //  code....
+      return new this(r, g, b, a)
+    }
+  }
+
+  const sc = new SubColor()
+  console.log(sc); // {r: 0, g: 0, b: 0, a: 1 ...}
+
+  // 子类重写的 formCss。result = {color: red} + {fontSize: 20px}
+  console.log(Color.fromCss(255, 255, 255));
+  console.log(SubColor.fromCss(255, 255, 255, 1)); // SubColor {r: 255, g: 255, b: 255, a: 1}
+</script>

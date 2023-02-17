@@ -25,3 +25,9 @@
 ## 一小时读完《Vue.js 设计与实现》
 
 视频版地址：https://www.bilibili.com/video/BV1kM411e7zi/?vd_source=391a8dc379e0da60c77490e3221f097a
+
+
+
+## 一小时读完《浪潮之巅》
+
+视频版地址：https://www.bilibili.com/video/BV11Y411e735/?vd_source=391a8dc379e0da60c77490e3221f097a
