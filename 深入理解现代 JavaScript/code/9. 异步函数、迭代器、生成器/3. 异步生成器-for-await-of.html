@@ -1,0 +1,20 @@
+<script>
+
+  // async 函数必然返回 promise
+  async function* fetchInSeries([...urls]) {
+    for (const url of urls) {
+      const res = await fetch(url)
+      // g.next().value 得到 res.json()
+      yield res.json()
+    }
+  }
+
+  async function getData() {
+    // for await of：利用迭代器的特性配合 await 解析生成器
+    for await (const value of fetchInSeries(['1.json', '2.json', '3.json'])) {
+      console.log(value);
+    }
+  }
+
+  getData()
+</script>

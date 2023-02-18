@@ -1,0 +1,17 @@
+<script>
+  const names = ['张三', '李四', '王五']
+  for (const iterator of names) {
+    console.log(iterator); // 张三、李四、王五
+  }
+
+  const person = {
+    name: '张三',
+    age: 30
+  }
+  // Uncaught TypeError: person is not iterable
+  // 普通对象默认不可迭代
+  for (const iterator of person) {
+    console.log(iterator);
+  }
+
+</script>

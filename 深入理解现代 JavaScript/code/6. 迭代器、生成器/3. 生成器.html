@@ -1,0 +1,12 @@
+<script>
+  function* simple() {
+    for (let i = 0; i < 3; i++) {
+      yield console.log(i);
+    }
+  }
+
+  const s = simple()
+  s.next() // 0
+  s.next() // 1
+  s.next() // 2
+</script>

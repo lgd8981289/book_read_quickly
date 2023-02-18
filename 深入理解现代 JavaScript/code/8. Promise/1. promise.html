@@ -1,0 +1,32 @@
+<script>
+
+  function reload(b) {
+    // 创建 promise 实例
+    return new Promise((resolve, reject) => {
+      console.log('代码进入 pending 状态');
+      setTimeout(() => {
+        if (b) {
+          resolve('代码进入 已成功 状态')
+        } else {
+          reject('代码进入 已拒绝 状态')
+        }
+      }, 500);
+    })
+  }
+
+  // const p1 = reload(true)
+  // p1.then((data) => {
+  //   console.log(data); // 代码进入 已成功 状态
+  // }).finally(() => {
+  //   console.log('p1 已敲定');
+  // })
+
+  const p2 = reload(false)
+  p2.then((data) => {
+    console.log(data); // 代码进入 已拒绝 状态
+  }).finally(() => {
+    console.log('p2已敲定');
+  })
+
+
+</script>
