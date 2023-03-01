@@ -1,0 +1,13 @@
+<script>
+  console.log(msg) // undefined （并不会报错）
+  var msg = 'hello world'
+
+  /*
+    var msg
+    console.log(msg) // undefined
+    msg = 'hello world'
+  */
+
+  console.log(msg2); // Uncaught ReferenceError: Cannot access 'msg2' before initialization
+  let msg2 = 'hello word'
+</script>

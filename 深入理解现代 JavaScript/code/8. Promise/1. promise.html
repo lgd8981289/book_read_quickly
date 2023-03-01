@@ -22,7 +22,7 @@
   // })
 
   const p2 = reload(false)
-  p2.then((data) => {
+  p2.catch((data) => {
     console.log(data); // 代码进入 已拒绝 状态
   }).finally(() => {
     console.log('p2已敲定');
