@@ -1,0 +1,16 @@
+{
+    "check-coverage": true,
+    "lines": 0,
+    "statements": 0,
+    "functions": 0,
+    "branches": 0,
+    "require": [
+        "@babel/register"
+    ],
+    "reporter": [
+        "html",
+        "text"
+    ],
+    "sourceMap": false,
+    "instrument": false
+}

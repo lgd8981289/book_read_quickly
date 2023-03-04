@@ -1,0 +1,15 @@
+{
+  "name": "eslint-plugin-utils-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "@jslib-book/eslint-plugin-utils": "^1.0.0"
+  }
+}

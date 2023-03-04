@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - 14
+before_script:
+  - echo npm install -g gulp-cli
+before_install:
+  - echo install yarn
+install:
+  - npm install
+script:
+  - npm run lint:prettier
+  - npm run lint
+  - npm run build
+  - npm test

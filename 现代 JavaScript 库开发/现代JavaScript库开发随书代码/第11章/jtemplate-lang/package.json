@@ -1,0 +1,38 @@
+{
+  "name": "jtemplate-lang",
+  "displayName": "jtemplate lang",
+  "description": "Syntax highlighting for jtemplate",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "publisher": "yanhaijing1234",
+  "contributes": {
+    "languages": [
+      {
+        "id": "jtemplate",
+        "aliases": [
+          "jtemplate",
+          "jtemplate"
+        ],
+        "extensions": [
+          ".tmpl"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "jtemplate",
+        "scopeName": "source.tmpl",
+        "path": "./syntaxes/jtemplate.tmLanguage.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "prettier": "2.6.2"
+  }
+}

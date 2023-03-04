@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "noEmit": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "allowJs": true,
+    "jsx": "react-jsxdev",
+    "lib": ["ES2021", "DOM"]
+  },
+  "include": ["./src/**/*"],
+  "exclude": []
+}

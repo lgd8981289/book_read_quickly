@@ -1,0 +1,34 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jslib-book/template.git",
+  "author": "yanhaijing <yanhaijing@yeah.net>",
+  "license": "MIT",
+  "private": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "workspaces": [
+    "packages/parser",
+    "packages/precompiler",
+    "packages/template",
+    "packages/jtemplate-loader"
+  ],
+  "dependencies": {
+    "lerna": "^3.16.4"
+  },
+  "scripts": {
+    "lint:prettier": "prettier --check .",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1",
+    "eslint": "^8.10.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^12.3.5",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  }
+}

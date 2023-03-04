@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "test": "cross-env NODE_ENV=test nyc mocha"<%if (test.puppeteer) {%>,
+        "test:puppeteer": "node test/browser/puppeteer.js"<%}%>
+    },
+    "devDependencies": {
+        "babel-plugin-istanbul": "^5.1.0",
+        "cross-env": "^5.2.0",
+        "expect.js": "^0.3.1",
+        "mocha": "^3.5.3",
+        "nyc": "^13.1.0"<%if (test.puppeteer) {%>,
+        "puppeteer": "^5.5.0"<%}%>
+    }
+}

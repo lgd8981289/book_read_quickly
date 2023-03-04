@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+<%if (prettier) {%>npx pretty-quick --staged<%}%>
+<%if (eslint) {%>npx lint-staged<%}%>
