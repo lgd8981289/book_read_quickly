@@ -6,7 +6,7 @@
 
 `Hello`，各位小伙伴大家好，我是 `Sunday`。
 
-在现在的技术团队之中，我们普遍觉得，能够在 `github` 上开发和维护各种 **库** 的工程师都是 **高手**。
+ 在现在的技术团队之中，我们普遍觉得，能够在 `github` 上开发和维护各种 **库** 的工程师都是 **高手**。
 
 <img src="%E7%8E%B0%E4%BB%A3%20JavaScript%20%E5%BA%93%E5%BC%80%E5%8F%91.assets/E596B6E5-010C-4576-8D72-1AEC41AD7F8D.jpeg" alt="VueJs: The basics in 4 mins. The simplicity of Vue.Js and its light… | by  James Samuel | codeburst" style="zoom: 50%;" /> <img src="%E7%8E%B0%E4%BB%A3%20JavaScript%20%E5%BA%93%E5%BC%80%E5%8F%91.assets/8D156D07-D884-49D8-AEAA-8F8A4DA23563.png" alt="Your custom development solution with React JS| Ubidreams" style="zoom:50%;" /><img src="%E7%8E%B0%E4%BB%A3%20JavaScript%20%E5%BA%93%E5%BC%80%E5%8F%91.assets/64C05598-E42D-41CF-8EE9-93A711262B19.png" alt="SEO Guide to Angular: Everything You Need to Know" style="zoom:50%;" />
 
