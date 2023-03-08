@@ -37,3 +37,9 @@
 ## 一小时读完《深入理解现代 JavaScript》
 
 视频版地址：https://www.bilibili.com/video/BV1qD4y1G7YK/?vd_source=391a8dc379e0da60c77490e3221f097a
+
+
+
+## 一小时读完《现代 JavaScript 库开发》
+
+视频版地址：https://www.bilibili.com/video/BV1fY4y1C7bx/?vd_source=391a8dc379e0da60c77490e3221f097a
