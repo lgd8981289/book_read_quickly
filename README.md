@@ -43,3 +43,9 @@
 ## 一小时读完《现代 JavaScript 库开发》
 
 视频版地址：https://www.bilibili.com/video/BV1fY4y1C7bx/?vd_source=391a8dc379e0da60c77490e3221f097a
+
+
+
+## 一小时读完《你不知道的JavaScript（上卷）》
+
+视频版地址：https://www.bilibili.com/video/BV1zk4y1b7w5/?vd_source=391a8dc379e0da60c77490e3221f097a
