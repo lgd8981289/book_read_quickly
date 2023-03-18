@@ -49,3 +49,11 @@
 ## 一小时读完《你不知道的JavaScript（上卷）》
 
 视频版地址：https://www.bilibili.com/video/BV1zk4y1b7w5/?vd_source=391a8dc379e0da60c77490e3221f097a
+
+
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
+
+Copyright (c) 2023 LGD_Sunday
