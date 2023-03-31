@@ -52,6 +52,12 @@
 
 
 
+## 一小时读完《JavaScript设计模式与开发实践》
+
+视频版地址：https://www.bilibili.com/video/BV1rM4y1U7w1/?vd_source=391a8dc379e0da60c77490e3221f097a
+
+
+
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
