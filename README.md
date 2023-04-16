@@ -58,6 +58,12 @@
 
 
 
+## 一小时读完《JavaScript权威指南（第7版）》上
+
+视频版地址：https://www.bilibili.com/video/BV1Ts4y1N7S2/?vd_source=391a8dc379e0da60c77490e3221f097a
+
+
+
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
