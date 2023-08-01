@@ -64,6 +64,12 @@
 
 
 
+## 一小时读完《红宝书》
+
+视频版地址：https://www.bilibili.com/video/BV1Zk4y137QQ/?vd_source=391a8dc379e0da60c77490e3221f097a
+
+
+
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
