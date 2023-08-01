@@ -1,0 +1,19 @@
+<script>
+  // function fn(name) {
+  //   console.log(arguments); // ['张三', 30, '男', callee: ƒ, Symbol(Symbol.iterator): ƒ]
+  // }
+
+  // const fn = (name) => {
+  //   console.log(arguments); // Uncaught ReferenceError: arguments is not defined
+  // }
+
+  // function fn(name, ...args) {
+  //   console.log(args); // [30, '男']
+  // }
+
+  const fn = (name, ...args) => {
+    console.log(args); // [30, '男']
+  }
+
+  fn('张三', 30, '男')
+</script>

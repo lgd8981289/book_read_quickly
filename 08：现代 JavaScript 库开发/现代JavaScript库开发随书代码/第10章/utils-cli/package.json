@@ -1,0 +1,21 @@
+{
+  "name": "@jslib-book/utils-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "utils": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "typescript": "^4.6.3",
+    "yargs": "^17.4.1"
+  }
+}

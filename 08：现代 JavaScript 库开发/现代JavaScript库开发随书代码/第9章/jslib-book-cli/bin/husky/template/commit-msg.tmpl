@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+<%if (commitlint.commitlint) {%>npx --no -- commitlint --edit $1<%}%>

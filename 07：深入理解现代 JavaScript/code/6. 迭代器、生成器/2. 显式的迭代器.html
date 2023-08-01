@@ -1,0 +1,20 @@
+<script>
+  const names = ['张三', '李四', '王五']
+  const it = names[Symbol.iterator]()
+  console.log(it); // Array Iterator {}
+  console.log(it.next()); // {value: '张三', done: false}
+  console.log(it.next()); // {value: '李四', done: false}
+  console.log(it.next()); // {value: '王五', done: false}
+  console.log(it.next()); // {value: undefined, done: true}
+
+  // const person = {
+  //   name: '张三',
+  //   age: 30
+  // }
+  // // Uncaught TypeError: person is not iterable
+  // // 普通对象默认不可迭代
+  // for (const iterator of person) {
+  //   console.log(iterator);
+  // }
+
+</script>

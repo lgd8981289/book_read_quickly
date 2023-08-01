@@ -1,0 +1,43 @@
+{
+  "name": "jtemplate-loader",
+  "version": "1.0.3",
+  "description": "",
+  "author": "jtemplate",
+  "license": "MIT",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test nyc mocha",
+    "lint": "echo lint",
+    "lint:prettier": "echo lint:prettier",
+    "build:self": "rollup -c config/rollup.config.js",
+    "build:esm": "rollup -c config/rollup.config.esm.js",
+    "build:aio": "rollup -c config/rollup.config.aio.js",
+    "build": "npm run build:self && npm run build:esm"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "@jslib-book/cli": "^1.0.0",
+    "babel-plugin-istanbul": "^5.1.0",
+    "cross-env": "^5.2.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.5.3",
+    "nyc": "^13.1.0",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^8.3.0",
+    "rollup-plugin-node-resolve": "^3.0.3"
+  },
+  "main": "dist/index.js",
+  "jsnext:main": "dist/index.esm.js",
+  "module": "dist/index.esm.js",
+  "sideEffects": false,
+  "dependencies": {
+    "@jtemplate/precompiler": "^1.0.3"
+  }
+}

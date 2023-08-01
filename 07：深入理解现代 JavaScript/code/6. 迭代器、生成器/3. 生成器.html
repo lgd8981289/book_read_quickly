@@ -1,0 +1,14 @@
+<script>
+  // 通过在 function 后面增加一个 * 来标记当前函数为生成器函数
+  function* simple() {
+    for (let i = 0; i < 3; i++) {
+      // 使用 yield 控制暂停迭代
+      yield console.log(i);
+    }
+  }
+
+  const s = simple()
+  s.next() // 0
+  s.next() // 1
+  s.next() // 2
+</script>

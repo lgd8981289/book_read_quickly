@@ -1,0 +1,21 @@
+<script>
+  const person = {
+    name: '曹操',
+    age: 58,
+    children: [
+      {
+        name: '曹丕',
+        age: 35
+      },
+      {
+        name: '曹植',
+        age: 28
+      }
+    ]
+  }
+
+  // { children } 表示获取 person 的 children
+  // { children: [caoPi] } 表示从 children 中获取第一个元素，命名为 caoPi
+  const { children: [caoPi] } = person
+  console.log(caoPi); // {name: '曹丕', age: 35}
+</script>
