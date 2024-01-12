@@ -2,4 +2,9 @@
 *.pdf
 *.epub
 *.mov
+._*.*
 01：重启读书计划
+._README.md
+._LICENSE
+._.gitignore
+._.DS_Store
