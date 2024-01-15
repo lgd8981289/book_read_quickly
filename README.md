@@ -70,6 +70,12 @@
 
 
 
+## 一小时读完《程序员超强大脑》
+
+视频版地址：https://www.bilibili.com/video/BV1Vw411J7aT/?vd_source=391a8dc379e0da60c77490e3221f097a
+
+
+
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
