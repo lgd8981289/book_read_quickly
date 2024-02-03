@@ -76,6 +76,10 @@
 
 
 
+## 一小时读完《软技能-代码之外的生存指南（第二版）》
+
+视频版地址：https://member.bilibili.com/platform/upload-manager/article
+
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)

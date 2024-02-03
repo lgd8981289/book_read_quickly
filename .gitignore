@@ -9,3 +9,4 @@
 ._.gitignore
 ._.DS_Store
 **/node_modules
+*.zip
