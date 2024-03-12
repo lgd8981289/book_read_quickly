@@ -80,6 +80,18 @@
 
 视频版地址：https://member.bilibili.com/platform/upload-manager/article
 
+
+
+## 1v1 沟通：LGD_Sunday
+
+<img src="README.assets/6731692671928_.pic.jpg" alt="6731692671928_.pic" style="zoom: 33%;" />
+
+
+
+## 公众号：程序员Sunday
+
+<img src="README.assets/%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88.png" alt="扫码_搜索联合传播样式-标准色版" style="zoom:33%;" />
+
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
